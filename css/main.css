@@ -68,6 +68,8 @@ nav {
     width: 100%;
     height: 785px;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -75,7 +77,11 @@ nav {
     color: #fff;
     font-size: 42px;
 }
-
+.demo {
+    margin-top: 1rem;
+    font-size: 50px;
+    color: #fff;
+}
 /* SECTION MAIN */
 
 .main-section {
