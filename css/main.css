@@ -1,0 +1,115 @@
+/* GENERAL CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    width: auto;
+}
+
+/* NAVIGATION STYLE */
+.sd-logo {
+    width: 70px;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(211, 204, 204, 1);
+    padding: 0 1.5rem;
+    position: fixed;
+    z-index: 5;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-item {
+    padding: 1.6rem 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+.nav-item:hover {
+    background-color: rgb(41, 41, 37);
+    color: #fff;
+}
+.nav-item:hover .nav-link{
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav-item-login{
+    margin-left: 2rem;
+    padding: 1.6rem 1rem;
+}
+.nav-link{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    color: black;
+}
+.photo-radious {
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 50px;
+}
+
+/* SECTION ABOUT */
+.about-section {
+    background-image: url(../images/backgrounds/website-design-brisbane1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    width: 100%;
+    height: 785px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-section h1{
+    color: #fff;
+    font-size: 42px;
+}
+
+/* SECTION MAIN */
+
+.main-section {
+    background-image: url(../images/backgrounds/main-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    height: 785px;
+    display: flex;
+}
+
+/* Products section */
+.products-section {
+    background-image: url(../images/backgrounds/pexels-daian-gan-102127.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    width: 100%;
+    height: 785px;
+    display: flex;
+}
+
+/* Products section */
+.support-section {
+    background-image: url(../images/backgrounds/support-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    height: 785px;
+    display: flex;
+}
